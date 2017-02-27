@@ -1,0 +1,44 @@
+<style>
+  
+    .header {
+      background-color:#428bca;
+      color:white;
+    }
+  
+    .bildcontent {
+     border:1px solid whitesmoke;
+    }
+    .rightbox-left li {
+      color:black;
+      border-bottom: 1px solid lightgray;
+    }
+  
+    .team img {
+      border:4px solid white;
+    }
+    .header h1 {
+      color:white;
+    }
+    .left-top {
+      background-color:white;
+      color:black;
+    }
+      .left-bottom {
+      background-color:white;
+      color:black;
+    }
+    .info-right {
+      background-color:white;
+      color:black;
+    }
+    .module {
+      color:black;
+    }
+    * {
+      color:black;
+    }
+    .rightbox-left {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  
+</style>

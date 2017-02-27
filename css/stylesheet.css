@@ -1,0 +1,315 @@
+* {
+  color:white;
+  padding:0;
+  margin:0;
+}
+
+body {
+ 
+  max-height:1920px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#bg_slider1 {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg_opacity {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bild {
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+.bildcontent {
+  border-radius:100%;
+  width:100px;
+  height:100px;
+  margin:0 auto;
+  border:5px solid white;
+  background-position:center;
+}
+
+.info {
+  font-family:Arial;
+  color:white;
+  border: 0 solid black;
+  text-align:center;
+  -webkit-box-shadow: -10px 13px 63px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 13px 63px 0px rgba(0,0,0,0.75);
+box-shadow: -10px 13px 63px 0px rgba(0,0,0,0.75);
+}
+
+.left-main {
+  width:30%;
+  height:80%;
+}
+
+.left-top {
+  top:100px;
+  position:relative;
+  padding:20px 0px 20px 0px;
+  left:10%;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:100%;
+  height:170px;
+  min-height:150px;
+}
+
+.left-bottom {
+  top:140px;
+  text-align:left;
+  position:relative;
+  left:10%;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:100%;
+  height:550px;
+  padding:0;
+  
+}
+
+.rightbox-left {
+  display:inline-block;
+  text-align:left;
+  width:50%;
+  height:100%;
+  font-family:Arial;
+  background-color:rgba(0, 0, 0, 0.4);
+  margin:0;
+}
+
+.rightbox-left li {
+  padding: 10px 5px 10px 10px;
+  margin:0;
+  color:white;
+  list-style-type:none;
+  border-bottom:1px solid white;
+}
+
+.rightbox-left li:last-child {
+  border-bottom:0;
+}
+
+.rightbox-left ul {
+  padding: 10px 5px 10px 10px;
+  margin:0;
+  list-style-type:none;
+}
+
+.info-right {
+  top:100px;
+  position:absolute;
+  right:100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:54%;
+  height:800px;
+  float:right;
+  margin:0;
+  text-align:left;
+}
+
+.right {
+  display:inline-block;
+  text-align:left;
+  width:50%;
+  float:right;
+  position: absolute;
+}
+
+#important {
+  font-size:20px;
+  text-align:center;
+  color:red;
+}
+
+@media only screen and (max-width: 1600px) {
+.info-right {
+  width:55%;
+  right:50px;
+}
+}
+
+@media only screen and (max-width: 1300px) {
+.info-right {
+  width:55%;
+  right:50px;
+}
+  .left-main {
+  width:40%;
+  left:50px;
+}
+ .left-top {
+  width:90%;
+  left:50px;
+}
+ .left-bottom {
+  width:90%;
+  left:50px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .info-right {
+  left:10%;
+  display:none;
+}
+  .left-main {
+    width:100%;
+}
+  
+ .left-top {
+  width:90%;
+}
+ .left-bottom {
+  width:90%;
+}
+}
+
+@media only screen and (max-height: 770px) {
+.info-right {
+  height:530px;
+  width:50%;
+}
+  .left-top {
+    height:150px;
+  }
+  .left-bottom {
+    height:300px;
+  }
+  #ytplayer {
+ display:none;
+}
+}
+
+@media only screen and (max-height: 920px) {
+.info-right {
+  height:730px;
+  width:50%;
+}
+  .left-top {
+    height:250px;
+  }
+  .left-bottom {
+    height:400px;
+  }
+  #ytplayer {
+ display:none;
+}
+}
+
+.infocontent {
+  position: relative;
+  text-align:left;
+  color:white;
+}
+
+.infocontent h1 {
+  font-size:20px;
+  text-align:center;
+}
+
+.infocontent li {
+  list-style-type:none;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+
+.infocontent ul {
+  list-style-type:none;
+  padding-bottom:5px;
+  padding-top:5px;
+  padding-left:5px;
+}
+
+.infocontent li:last-child {
+  border-bottom:0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin:0;
+  height:50px;
+  width:100%;
+  font-size:20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.module {
+  position:relative;
+  font-size:30px;
+}
+
+.module i {
+  text-align:center;
+  padding:20px;
+  
+}
+
+.team {
+  text-align:left;
+  height:60px;
+  padding:10px;
+  padding-left:25px;
+}
+.team img {
+  border-radius:100%;
+  width:50px;
+  height:50px;
+  text-align:left;
+  display:inline-block;
+  position:relative;
+  top:-2;
+  border:4px solid;
+}
+.description {
+  text-align:left;
+  margin:0;
+  display:inline-block;
+  position:relative;
+  margin-left:20px;
+  top:-10;
+}
+.description ul {
+  padding:0;
+}
+.description li {
+  list-style-type:none;
+  padding:4;
+  border-bottom:1px solid gray;
+}
+.description li:last-child {
+  border:0;
+}
+
+#owner {
+  border-color:red;
+}
+
+#ytplayer {
+ position:absolute;
+ width:100%;
+ height:100%;
+ bottom:-289;
+  
+}
+/*
+{{ user_id }}
+*/
