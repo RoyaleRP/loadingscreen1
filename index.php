@@ -20,10 +20,10 @@ $maxplayers = 'Server Slots';
 
 $rules = array(
 
-      "This is the first awesome rule on my Server",
-      "This is the 2nd awesome rule on my Server",
-      "This is the 3rd awesome rule on my Server",
-      "This is the 4th awesome rule on my Server" // Last one without comma
+      "No RDM",
+      "No Prop Killing,Pushing,Climbing",
+      "Do not break NLR(Time = 10mins)",
+      "Do not be a minge" // Last one without comma
               
 );
 
