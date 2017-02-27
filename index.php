@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$servername = 'Example Community';
+$servername = 'RoyaleRP';
 
 $slots = '32';// Maxplayers on your Server
 
@@ -49,9 +49,9 @@ $ownertitle = 'Owner';
 
 $staff = [
   
-          '76561198041267314' => 'Owner',
-          '76561197960279927' => 'Gmod Creator',
-          '76561198041267314' => 'Awesome'
+          '76561198109079161' => 'Owner',
+          '76561198109079161' => 'Developer',
+          '76561198034709693' => 'Co Founder'
 
 ];
 
